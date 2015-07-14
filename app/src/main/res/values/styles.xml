@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <!-- specify shared element transitions -->
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>
+        <item name="android:textColorPrimary">#fff000</item>\
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:colorPrimary">#212121</item>
+        <item name="android:actionBarSize">150dp</item>
+
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+        <shape android:shape="oval">
+
+            <solid
+                android:dashGap="6px"
+                android:dashWidth="6px"
+                android:color="#C7B299" />
+        </shape>
+    </item>
+</ripple>
